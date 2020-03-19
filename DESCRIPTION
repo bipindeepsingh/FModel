@@ -1,0 +1,16 @@
+Package: FModels
+Type: Package
+Title: Quickly Implement Mulitple Classifier Models
+Version: 0.1.0
+Author: Bipin Deep Singh
+Maintainer: Bipin Deep Singh <bipindeepsingh@gmail.com>
+Description: Quickly bulid mulitple optimized models specially to check feasability of the problem,V1 contains only logostic regression future versions will contain multiple classification models. To use this data should be cleaned (no missing values) and categorical variables should be one hot encoded
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  data.table,
+  car,
+  pROC,
+  stats
+RoxygenNote: 7.1.0
