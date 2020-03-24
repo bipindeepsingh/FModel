@@ -4,10 +4,10 @@
 \alias{qmodel}
 \title{Remove multicollinearity and run logistic regression with variable selection}
 \usage{
-qmodel(sample_data, vif_lim = 10, p_lim = 0.06, t_sample = 0.8)
+qmodel(data, vif_lim = 10, p_lim = 0.06, t_sample = 0.8)
 }
 \arguments{
-\item{sample_data}{data frame where 1st column is identifier(key) and 2nd column is target variable should be named flag, data should not have missing values and categorical variables should be one hot encoded}
+\item{data}{data frame where 1st column is identifier(key) and 2nd column is target variable should be named flag, data should not have missing values and categorical variables should be one hot encoded}
 
 \item{vif_lim}{maximum acceptable vif value for treating multicollinearity, default set to 10}
 

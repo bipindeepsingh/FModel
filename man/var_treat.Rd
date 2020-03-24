@@ -4,10 +4,10 @@
 \alias{var_treat}
 \title{Remove multicollinearity from data}
 \usage{
-var_treat(sample_data, vif_lim = 10)
+var_treat(data, vif_lim = 10)
 }
 \arguments{
-\item{sample_data}{data frame where 1st column is identifier(key) and 2nd column is target variable should be named flag, data should not have missing values and categorical variables should be one hot encoded}
+\item{data}{data frame where 1st column is identifier(key) and 2nd column is target variable should be named flag, data should not have missing values and categorical variables should be one hot encoded}
 
 \item{vif_lim}{maximum acceptable vif value for treating multicollinearity, default set to 10}
 }

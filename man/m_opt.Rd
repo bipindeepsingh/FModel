@@ -4,10 +4,10 @@
 \alias{m_opt}
 \title{Run logistic regression with variable selection}
 \usage{
-m_opt(sample_data, p_lim = 0.06, t_sample = 0.8)
+m_opt(data, p_lim = 0.06, t_sample = 0.8)
 }
 \arguments{
-\item{sample_data}{data frame where 1st column is identifier(key) and 2nd column is target variable should be named flag, data should not have missing values and categorical variables should be one hot encoded}
+\item{data}{data frame where 1st column is identifier(key) and 2nd column is target variable should be named flag, data should not have missing values and categorical variables should be one hot encoded}
 
 \item{p_lim}{maximum acceptable p value for variable in logistic regression default 0.06}
 
